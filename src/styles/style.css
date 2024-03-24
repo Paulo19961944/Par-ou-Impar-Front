@@ -96,6 +96,6 @@ footer{
     align-items: center; /*Alinha ao centro vertical*/
     width: 100vw; /*Largura ocupando toda a tela*/
     height: 100px; /*Altura de 100px*/
-    position: absolute; /*Posição Absoluta a Tela*/ 
+    position: fixed; /*Posição Fixa a Tela*/ 
     bottom: 0; /*Alinha na parte inferior da Tela*/
 }
