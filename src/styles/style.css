@@ -1,0 +1,101 @@
+/*ESTILO GLOBAL*/
+*{
+    font-family: "Ubuntu Condensed", sans-serif; /*Fonte do Google*/
+    font-weight: 400; /*Peso da Fonte*/
+    font-style: normal; /*Estilo da Fonte*/
+    margin: 0; /*Zera a Margem*/
+    padding: 0; /*Zera o Espaçamento*/
+    box-sizing: border-box; /*Ocupa a largura máxima da tela*/
+}
+
+/*CONTEÚDO HTML*/
+body{
+    background-color: #f5f5f5; /*Cor de Fundo - Branca*/
+    max-width: 100vw; /*Largura ocupando toda a tela*/
+    min-height: 100vh; /*Altura ocupando toda a tela*/
+}
+
+/*CABEÇALHO*/
+header{
+    position: absolute; /*Posição diferente de fixed*/
+    top: 0; /*Alinha ao topo*/
+    background-color: #B4D9D3; /*Cor de Fundo Azul*/
+    margin-bottom: 48px; /*Margem em baixo de 48px*/
+    display: flex; /*Flexbox*/
+    justify-content: center; /*Alinha ao Centro  Horizontal*/
+    align-items: center; /*Alinha ao Centro Vertical*/
+    border: 1px solid #000; /*Borda de 1px sólida*/
+    width: 100vw; /*Largura ocupando toda a tela*/
+    height: 150px; /*Altura de 150px*/
+}
+
+/*TITULO DO CABEÇALHO*/
+header h1{
+    font-size: 2rem; /*Tamanho da fonte de 2rem*/
+}
+
+/*CONTEÚDO PRINCIPAL*/
+main section{
+    position: absolute; /*Posição Absoluta*/
+    top: 54%; /*Topo de 54% (Corrigido)*/
+    left: 50%; /*Esquerda em 50%*/
+    transform: translate(-50%, -50%); /*Alinha em relação ao elemento*/
+    background-color: #B4D9D3; /*Cor de Fundo Azul*/
+    border: 1px solid #000; /*Borda de 1px solida (Preta)*/
+    box-shadow: 1px 1px 1px #fff; /*Sombra*/
+    border-radius: 8px; /*Arredonda a borda*/
+    display: flex; /*Flexbox*/
+    justify-content: center; /*Alinha ao centro vertical*/
+    padding: 16px; /*Espaçamento de 16px*/
+    width: 900px; /*Largura de 900px*/
+}
+
+/*FORMULÁRIO*/
+form{
+    display: flex; /*Flexbox*/
+    flex-direction: column; /*Alinha em Colunas*/
+    align-items: center; /*Alinha horizontalmente ao centro*/
+    width: 100%; /*Largura de 100%*/
+    text-align: center; /*Alinha o texto ao centro*/
+}
+
+/*TEXTO DO FORMULÁRIO*/
+form label{
+    font-size: 1.44rem; /*Tamanho da fonte  de 1,44 rem */
+    margin: 32px 0 16px 0; /*Margem (Top | Right | Bottom | Left)*/
+}
+
+/*ENTRADA DO FORMULÁRIO*/
+form input{
+    font-size: 1rem; /*Tamanho da fonte de 1rem*/
+    height: 24px; /*Altura de 24px*/
+    background-color: #000; /*Cor de Fundo (Preto)*/
+    color: #f5f5f5; /*Cor de Fundo Branco*/
+    text-align: center; /*Alinha o texto ao centro*/
+    width: 80%; /*Largura de 80%*/
+    margin: 16px 0 48px 0; /*Margem - (Top | Right | Bottom | Left)*/
+}
+
+/*BOTÃO DE AÇÃO*/
+#btn{
+    font-size: 1.2rem; /*Tamanho da Fonte de 1.2 rem*/
+    border: none; /*Tira a Borda*/
+    border-radius: 4px; /*Arredonda as bordas*/
+    background-color: #EA9010; /*Cor de Fundo (Laranja)*/
+    height: 48px; /*Altura de 48px*/
+    width: 184px; /*Largura de 184 px*/
+    margin-bottom: 48px; /*Margem inferior de 48px*/
+}
+
+/*Rodapé*/
+footer{
+    border: 1px solid #000; /*Borda de 1px solida e preto*/
+    background-color: #B4D9D3; /*Cor de Fundo (Azul)*/
+    display: flex; /*Flexbox*/
+    justify-content: center; /*Alinha ao centro horizontal*/
+    align-items: center; /*Alinha ao centro vertical*/
+    width: 100vw; /*Largura ocupando toda a tela*/
+    height: 100px; /*Altura de 100px*/
+    position: absolute; /*Posição Absoluta a Tela*/ 
+    bottom: 0; /*Alinha na parte inferior da Tela*/
+}

@@ -1,0 +1,51 @@
+/*Laptops*/
+@media screen and (max-width: 1033px){
+    /*CONTEÚDO PRINCIPAL*/
+    main section{
+        width: 752px; /*Largura de 752px*/
+    }
+}
+
+/*TABLETS*/
+@media screen and (max-width: 846px) {
+    /*CONTEÚDO PRINCIPAL*/
+    main section{
+        width: 600px; /*Largura de 600px*/
+    }
+}
+
+/*CELULAR*/
+@media screen and (max-width: 654px) {
+    /*CONTEÚDO PRINCIPAL*/
+    main section{
+        max-width: 90vw; /*Ocupa 90% de toda a tela*/
+    }   
+}
+
+/*CELULAR*/
+@media screen and (max-width:500px) {
+    /*TITULO DO CABEÇALHO*/
+    header h1{
+        font-size: 1.5rem; /*Tamanho da fonte de 1.5rem*/
+    }
+
+    /*TODOS OS COMPONENTES DO FORMULARIO E TEXTO DO RODAPÉ*/
+    form label, form input, #btn, footer p{
+        font-size: 0.87rem; /*Tamanho da Fonte de 0.87rem*/
+    }
+}
+
+/*CELULAR MENOR*/
+@media screen and (max-width: 375px) {
+    /*BOTÃO DE AÇÃO*/
+    #btn{
+        width: 152px; /*Largura de 152px*/
+    }
+}
+
+/*CELULAR MENOR POSSIVEL*/
+@media screen and (max-width: 320px) {
+    #btn{
+        width: 136px; /*Largura de 136px*/
+    }
+}
