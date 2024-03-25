@@ -87,6 +87,11 @@ form input{
     margin-bottom: 48px; /*Margem inferior de 48px*/
 }
 
+#btn:hover{
+    cursor: pointer; /*Aparece a Mãozinha*/
+    transform: scale(1.02); /*Zoom de 2%*/
+}
+
 /*Rodapé*/
 footer{
     border: 1px solid #000; /*Borda de 1px solida e preto*/
